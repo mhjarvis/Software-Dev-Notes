@@ -3,7 +3,7 @@ const ARRAY_LENGTH = 20;
 let sortedArray = [1, 2, 3, 4, 5, 6, 7, 9];
 const randomArray = [];
 
-/*--------------------------------------------- Random Array Generator --------------------------------------------- */
+/*------------------- --------------------- Random Array Generator ---------------------------------------- */
 
 for(let i = 0; i < ARRAY_LENGTH; i++) {
     randomArray.push(Math.floor(Math.random() * 50));
@@ -21,7 +21,7 @@ function linearSearch(array, value) {
     }
 }
 
-// console.log(linearSearch(randomArray, 5));
+console.log(linearSearch(randomArray, 5));
 
 /*--------------------------------------------- Binary Search --------------------------------------------- */
 
